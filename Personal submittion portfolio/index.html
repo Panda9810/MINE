@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Bootstrap 4 CSS and JavaScript -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        /* Custom CSS for the main banner */
+        .banner {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+            width: 100%; /* Adjust the width as needed, e.g., 1200px */
+            margin: 0 auto; /* Center the banner horizontally */
+        }
+
+        /* Add space between banners */
+        .banner + .mission-banner {
+            margin-top: 20px;
+        }
+
+        /* Styles for the mission statement banner */
+.mission-banner {
+    background-color: #333; /* Same color as the navigation bar */
+    text-align: center;
+    padding: 20px 0;
+    animation: slideIn 2s ease-in-out; /* Animation */
+}
+
+/* Text color in the mission statement banner */
+.mission-banner h3 {
+    color: #fff; /* Text color (white) */
+}
+
+        /* Keyframes for the animation */
+        @keyframes slideIn {
+            0% {
+                transform: translateY(-100%);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        /* Styles for the circular logo */
+        .logo-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px; /* Adjust the size as needed */
+            border: 2px solid #000; /* Border color and width */
+            border-radius: 50%; /* Create a circular border */
+            overflow: hidden; /* Hide any image overflow */
+        }
+
+        .logo img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Set background color for the entire page */
+        body {
+            background-color: #f0f0f0; /* Gray background color for the entire page */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <header>
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <!-- Circular Logo -->
+                            <div class="logo-container">
+                                <div class="logo">
+                                    <img src="images/logo.png" alt="img">
+                                </div>
+                            </div>
+                        </a>
+                        <!-- Rest of your navigation code -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="work.html">Work</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+</div>
+
+<!-- Main Banner Section -->
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Welcome to my portfolio</h2>
+                <h1 class="text-white pt-2 animated-title">A Passionate UX Researcher</h1>
+                <br>
+                <a href="" class="btn btn-primary page-button">My Resume</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add a break between banners -->
+<br>
+
+<!-- Mission Statement Banner -->
+<div class="mission-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Connecting Psychology & Design to Craft User-Centric Experiences</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="about pt-5 pb-5 mt-md-4 mb-md-4">
+    <div class="container pt-5 pb-5">
+        <div class="row">
+            <div class="col-md-6"> <!-- Adjusted the column width for the image to col-md-6 -->
+                <img src="Images/IMG_9745.jpg" class="img-fluid mt-3" alt="img" style="width: 350px; height: 500px;">
+            </div>
+            <div class="col-md-6 pt-md-0 pt-4">
+                <!-- About Card -->
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">About</h2>
+                        <p class="card-text">
+                            With a background in psychology, I’m a passionate UX researcher based in California.
+                            My journey is anchored in an appreciation for technology and a fascination with the human mind.
+                            By blending my <b>psychological insights with user experiment research,</b>
+                            I uncover <b>deep-rooted user behaviors and preferences</b>, translating them into thoughtful and intuitive digital designs.
+                        </p>
+                        <p class="card-text">
+                            <b>My mission is to bridge the gap between human psychology and technology</b>, creating user-centric solutions that resonate and elevate the digital landscape.
+                        </p>
+                    </div>
+                </div>
+                <!-- End of About Card -->
+                
+                <!-- Skills Card -->
+                <div class="card mt-4">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Skills</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Prototyping</li>
+                            <li class="list-group-item">User Research</li>
+                            <li class="list-group-item">Wireframing</li>
+                            <li class="list-group-item">Usability Testing</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End of Skills Card -->
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Section -->
+<footer class="text-center">
+    <ul class="list-linline m-0 pt-2 pb-2 ps-0">
+        <li class="list-inline-item">
+            <a href="index.html">About</a>
+        </li>
+        <li class="list-inline-item">
+            <a href="work.html">Work</a>
+        </li>
+    </ul>
+    <p>&copy;2023 - Portfolio - All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JavaScript and jQuery (Make sure to include these at the end of your document) -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
+

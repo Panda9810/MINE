@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Bootstrap 4 CSS and JavaScript -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        /* Custom CSS for the main banner */
+        .banner {
+            background-color: #f5deb3; /* Light brown color, you can change to your preferred color */
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+            width: 100%; /* Adjust the width as needed, e.g., 1200px */
+            margin: 0 auto; /* Center the banner horizontally */
+            animation: slideIn 2s ease-in-out; /* Animation */
+        }
+
+        /* Keyframes for the animation */
+        @keyframes slideIn {
+            0% {
+                transform: translateY(-100%);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        /* Styles for the circular logo */
+        .logo-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px; /* Adjust the size as needed */
+            border: 2px solid #000; /* Border color and width */
+            border-radius: 50%; /* Create a circular border */
+            overflow: hidden; /* Hide any image overflow */
+        }
+
+        .logo img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Set background color for the entire page */
+        body {
+            background-color: #f0f0f0; /* Gray background color for the entire page */
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <header>
+                    <nav class="navbar navbar-expand-md navbar-dark">
+                        <div class="container">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="images/logo.png" alt="img" class="logo">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="work.html">Work</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+        </div>
+    </div>
+
+<!-- Main Banner Section -->
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Welcome to my portfolio</h2>
+                <h1 class="text-white pt-2 animated-title">WORK</h1> <!-- Change the text to "WORK" -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Work Section (Cards) -->
+<div class="container pb-5 mb-5">
+    <div class="row pb-md-5">
+        <!-- First card -->
+        <div class="col-md-6 mt-5">
+            <div class="card h-100 d-flex flex-column"> <!-- Use 'h-100' class to make each card the same height -->
+                <img src="images/p2.png" class="img-fluid" alt="img">
+                <div class="card-body">
+                    <h3 class="w1 pt-3">Redesign Nonprofit Website</h3>
+                    <div class="line"></div>
+                    <p class="pt-4">
+                        I collaborated with a team to redesign for a non-profit organization. Project time: 3 weeks.
+                    </p>
+                    <a href="https://wilyzayap.wixsite.com/my-site-1" class="btn btn-primary mt-auto">See More</a>
+                    <!-- You can add more text here -->
+                </div>
+            </div>
+        </div>
+        <!-- Second card -->
+        <div class="col-md-6 mt-5">
+            <div class="card h-100 d-flex flex-column"> <!-- Use 'h-100' class to make each card the same height -->
+                <img src="images/p3.png" class="img-fluid" alt="img">
+                <div class="card-body">
+                    <h3 class="w1 pt-3">Design App for Eco Refill Station</h3>
+                    <div class="line"></div>
+                    <p class="pt-4">
+                        Design that focuses on users' needs for refill products by using the app. Project time: 3 weeks.
+                    </p>
+                    <a href="https://wilyzayap.wixsite.com/my-site-1" class="btn btn-primary mt-auto">See More</a>
+                    <!-- You can add more text here -->
+                </div>
+            </div>
+        </div>
+        <!-- Third card -->
+        <div class="col-md-6 mt-5">
+            <div class="card h-100 d-flex flex-column"> <!-- Use 'h-100' class to make each card the same height -->
+                <img src="images/p5.png" class="img-fluid" alt="img">
+                <div class="card-body">
+                    <h3 class="w1 pt-3">Gathering Data from Qualtrics</h3>
+                    <div class="line"></div>
+                    <p class="pt-4">
+                        Gathered data from participants. Using SPSS and Jasp to analyze our collected data. Time Period: 6 months.
+                    </p>
+                    <a href="https://wilyzayap.wixsite.com/my-site-1" class="btn btn-primary mt-auto">See More</a>
+                    <!-- You can add more text here -->
+                </div>
+            </div>
+        </div>
+        <!-- Fourth card -->
+        <div class="col-md-6 mt-5">
+            <div class="card h-100 d-flex flex-column"> <!-- Use 'h-100' class to make each card the same height -->
+                <img src="images/p4.png" class="img-fluid" alt="img">
+                <div class="card-body">
+                    <h3 class="w1 pt-3">Webdesign for Univ Lab(Current)</h3>
+                    <div class="line"></div>
+                    <p class="pt-4">
+                        Design and code for CSUEB Psychology Lab for alumni and current undergrad students. Time period: 4 months.
+                    </p>
+                    <a href="https://wilyzayap.wixsite.com/my-site-1" class="btn btn-primary mt-auto">See More</a>
+                    <!-- You can add more text here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="text-center">
+        <ul class="list-inline m-0 pt-2 pb-2 ps-0">
+            <li class="list-inline-item">
+                <a href="index.html">About</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="work.html">Work</a>
+            </li>
+        </ul>
+        <p>&copy;2023 - Portfolio - All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            console.log('JavaScript code is running.');
+
+            // Bounce animation for the logo
+            $('.logo').hover(
+                function() {
+                    $(this).addClass('bounce');
+                },
+                function() {
+                    $(this).removeClass('bounce');
+                }
+            );
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
